@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /* background-image:linear-gradient(to right, rgb(0, 0, 0)40% , #ff0066); */
+    background: #000;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    position: fixed;
+    z-index: 6;
+    /* background: #000; */
+}
+
+/* navigation 1st logo start----*/
+nav .logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+    width: 5%;
+}
+
+nav .logo a {
+    /* background: #000; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: flex;
+    max-width: 100%;
+}
+
+/* navigation 1st logo end-----0*/
+
+
+
+
+/* profile picture start------1 */
+nav .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #e90c0c; */
+    height: 55%;
+    width: 5%;
+}
+
+nav .profile a {
+    /* background: red; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .profile img {
+    max-width: 60%;
+}
+
+/* profile picture end------0 */
+
+
+
+
+/* navigation menu start----1 */
+nav .navmenu {
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+}
+nav .navmenu a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ff0066;
+    border-radius: 40px;
+    color: #ff0066;
+    font-size: 1.5vw;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+nav .navmenu a:hover {
+    background-color: #ff0066;
+    color: black;
+}
