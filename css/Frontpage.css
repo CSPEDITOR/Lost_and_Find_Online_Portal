@@ -103,3 +103,37 @@ nav .navmenu a:hover {
     background-color: #ff0066;
     color: black;
 }
+
+/* FONT PAGE */
+.wesitename {
+    background-image: linear-gradient(to right, rgb(0, 0, 0)40%, #ff0066);
+    /* background: green; */
+    color: #ff0066;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    
+}
+.wesitename .heading {
+    display: flex;
+    gap: 10%;
+
+}
+
+#find {
+    -webkit-text-stroke-width: .1vw;
+    -webkit-text-stroke-color: #ff0066;
+    color: black;
+}
+
+.wesitename .heading2 {
+    display: flex;
+    gap: 10%;
+}
+
+.wesitename {
+    font-size: 3vw;
+}
