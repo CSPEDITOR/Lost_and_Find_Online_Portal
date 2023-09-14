@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background: #000;
+    height: 100vh;
+}
+
+nav {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    position: fixed;
+    z-index: 1;
+    background:#000;
+
+}
+
+/* navigation 1st logo start----*/
+nav .logo {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 55%;
+    width: 5%;
+}
+
+nav .logo a {
+    /* background: #000; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+nav .logo a img {
+    display: flex;
+    max-width: 100%;
+}
+
+/* navigation 1st logo end-----0*/
+
+
+
+
+/* profile picture start------1 */
+nav .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #e90c0c; */
+    height: 55%;
+    width: 5%;
+}
+
+nav .profile a {
+    /* background: red; */
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .profile img {
+    max-width: 60%;
+}
+
+/* profile picture end------0 */
+
+
+
+
+/* navigation menu start----1 */
+nav .navmenu {
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    height: 50%;
+}
+
+nav .navmenu a {
+    text-decoration: none;
+    /* background:red; */
+    height: 100%;
+    width: 100%;
+}
+
+nav .navmenu a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #ff0066;
+    border-radius: 40px;
+    color: #ff0066;
+    font-size: 1.5vw;
+}
+
+nav .navmenu a:hover {
+    background-color: #ff0066;
+    color: black;
+}
+
+/* navigation menu end----0  */
+
+.lost_item_form{
+/* margin-top: 2%; */
+    height: 94vh;
+    gap: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lost_item_form h2{
+    color: #ff0066;
+    font-size: 3vw;
+    display: flex;
+}
+.lost_item_form form{
+
+    /* color: #ff0066; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2%;
+    height: 70%;
+    color: #ff0066;
+}
+.lost_item_form form .onlynameitems{
+justify-content: space-between;
+display: flex;
+height: 10%;
+}
+.onlynameitems .contactnum{
+    width: 50%;
+
+}
+span{
+    width: 40%;
+}
+.onlynameitems .uploadimg{
+    width: 50%;
+    padding-left: 2%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+.onlynameitems .uploadimg input{
+    display: flex;
+    /* align-items: center; */
+    
+}
+.lost_item_form form .onlynameitems input{
+    height: 100%;
+    margin-left: 6.5%;
+    width: 60%;
+    /* background: red; */
+    color: rgb(164, 164, 164);
+    /* border: none; */
+    border-radius: 8px;
+    border-bottom-color: #ff0066;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.namecontainer{
+    width: 50%;
+    font-size: 1.2vw;
+}
+.lostitemsname{
+    font-size: 1.2vw;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: end;
+}
+.lost_item_form form input{
+    font-size: 1.2vw;
+    height: 50%;
+    color: rgb(164, 164, 164);
+    border-bottom-color: #ff0066;
+    background: #000;
+    /* color: #ff0066; */
+    border-radius: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+.lost_item_form form button{
+    height: 10%;
+    width: 50%;
+    background: #ff0066;
+    border: none;
+    border-radius: 10px;
+}
+textarea{
+    background: #000;
+    color:aliceblue;
+    border-color:#ff0066;   
+}
+#btn{
+    margin-left: 25%;
+    font-size: 1.1vw;
+}

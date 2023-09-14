@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="imgs/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting_lost_items</title>
+    <link rel="stylesheet" href="Css/Reporting_lost_items.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"> <img src="imgs/logo.png" alt="profile logo"></a>
+            </div>
+            <div class="navmenu">
+                <a href="Lost_and_Find_Online_Portal.html">
+                    <p>Home</p>
+                </a>
+                <a href="#">
+                    <p>Lost</p>
+                </a>
+                <a href="Reporting_Found_items.html">
+                    <p>Found</p>
+                </a>
+                <a href="#">
+                    <p>Contact</p>
+                </a>
+                <a href="#home">
+                    <p>About</p>
+                </a>
+                <a href="#">
+                    <p>Search</p>
+                </a>
+            </div>
+            <div class="profile">
+                <a href="#main55"><img src="imgs/profile logo.png" alt="error"></a>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <br>
+    <main>
+        <div class="lost_item_form">
+
+            <h2> <u> Reporting Lost Items </u></h2>
+            <form>
+                <div class="onlynameitems">
+                    <div class="namecontainer">
+                        <span>Your Name</span>
+                        <input type="text " placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="lostitemsname">
+                        <span>Lost item name</span>
+                        <input type="text" placeholder="Enter your lost item name" required>
+                    </div>
+                </div>
+                <br>
+                <div class="onlynameitems">
+                    <div class="contactnum">
+                        <span>Contact Number</span>
+                        <input type="text" placeholder="Enter your whatsapp phone no" required>
+                    </div>
+                    <div class="uploadimg">
+                        <span>Upload lost image</span>
+                        <!-- <span class="material-symbols-outlined">
+                            upload_file
+                        </span> -->
+                        <input type="file" accept="image">
+                    </div>
+                </div>
+                <span>Descriptions</span>
+                <textarea name="Descriptions" id="" cols="30" rows="3" placeholder="Enter descriptions"></textarea>
+                <br>
+                <span>Locations</span>
+                <textarea name="Locations" id="" cols="30" rows="4" placeholder="Enter lost locations"
+                    required></textarea>
+                <button id="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
